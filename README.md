@@ -27,3 +27,5 @@ Would be great to also capture position of the actual string.
 We need to know/do this because many tools need to synchronize between the parsed AST and the original source file to perform intellisense and other operations. 
 
 
+
+BONUS: there is also a section in the main .cpp wrapped by a #if 0.  It is all my rules but in a function scope. It will not compile because I can not get BOOST_SPIRIT_DEFINE or DECLARE to operate in a scope (which is understandable, templates can't be there) but what the alternative?  
